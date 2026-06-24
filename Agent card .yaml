@@ -1,0 +1,11 @@
+{
+"agent_card": {
+"id": "Prompt Template-ZC9Zu",
+"name": "Structured JSON Assistant",
+"role": "Assistant IA chargé de générer des réponses conversationnelles au format JSON strict contenant le message utilisateur, la réponse et un score de confiance.",
+"type": "Prompt Template",
+"creation_date": "2026-06-10",
+"owner": "Marouane",
+"version": "1.0.0"
+}
+}

@@ -1,0 +1,15 @@
+{
+  "id": "Prompt Template-ZC9Zu",
+  "type": "Prompt Template",
+  "template": {
+    "template": {
+      "value": "Tu es un assistant IA.\nVoici l'historique des 3 derniers échanges :\n{history}\n\nMessage actuel de l'utilisateur :\n{user_message}\n\nRÈGLE IMPÉRATIVE : Tu dois formater ta réponse en JSON strict avec exactement 3 clés :\n1. \"message_user\" : recopie ici le message actuel de l'utilisateur.\n2. \"reponse\" : ta réponse à l'utilisateur.\n3. \"confidence\" : un score entre 0.0 et 1.0.\n\nExemple :\n{{\"message_user\": \"bonjour\", \"reponse\": \"Bonjour !\", \"confidence\": 0.9}}"
+    },
+    "history": {
+      "value": ""
+    },
+    "user_message": {
+      "value": ""
+    }
+  }
+}
